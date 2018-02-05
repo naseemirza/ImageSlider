@@ -21,7 +21,7 @@ public class MyCustomPagerAdapter extends PagerAdapter {
     private static int NUM_PAGES = 0;
 
     private Context context;
-    private Integer [] images={R.drawable.img1, R.drawable.img2, R.drawable.img3, R.drawable.img4};
+    private Integer [] images={R.drawable.banner1, R.drawable.banner2, R.drawable.banner3,R.drawable.banner1};
     private LayoutInflater layoutInflater;
     public MyCustomPagerAdapter(Context context) {
         this.context = context;
